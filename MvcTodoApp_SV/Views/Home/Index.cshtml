@@ -22,7 +22,11 @@
                     <form method="post" asp-action="CompleteTask" style="display:inline;">
                         <input type="hidden" name="id" value="@task.Id" />
                         <button type="submit">اكتملت</button>
-                    </form>
+                    </form>  
+     <form method="get" asp-action="EditTask" style="display:inline;">
+                        <input type="hidden" name="id" value="@task.Id" />
+                        <button type="submit">تعديل</button>
+                    </form><a asp-action="EditTask" asp-route-id="@task.Id">تعديل</a>
 
                 }
             </li>

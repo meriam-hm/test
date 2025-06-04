@@ -1,0 +1,21 @@
+   @model MvcTodoApp.Models.TaskItem
+
+   <h2>تعديل المهمة</h2>
+
+   <form asp-action="UpdateTask" method="post">
+       <input type="hidden" asp-for="Id" />
+       
+       <div>
+           <label asp-for="Title"></label>
+           <input asp-for="Title" />
+       </div>
+       
+       <div>
+           <input type="checkbox" asp-for="IsComplete" />
+           <label asp-for="IsComplete"></label>
+       </div>
+       
+       <button type="submit">حفظ التغييرات</button>
+       <a asp-action="Index">إلغاء</a>
+   </form>
+   

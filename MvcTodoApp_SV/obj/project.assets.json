@@ -8,26 +8,24 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Nawzat\\.nuget\\packages\\": {}
+    "C:\\Users\\ASUS\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Nawzat\\Desktop\\SE2-MVC&N-tier\\MvcTodoApp_SV\\MvcTodoApp.csproj",
+      "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\Meriam\\MvcTodoApp_SV\\MvcTodoApp.csproj",
       "projectName": "MvcTodoApp",
-      "projectPath": "D:\\Nawzat\\Desktop\\SE2-MVC&N-tier\\MvcTodoApp_SV\\MvcTodoApp.csproj",
-      "packagesPath": "C:\\Users\\Nawzat\\.nuget\\packages\\",
-      "outputPath": "D:\\Nawzat\\Desktop\\SE2-MVC&N-tier\\MvcTodoApp_SV\\obj\\",
+      "projectPath": "C:\\Users\\ASUS\\Desktop\\Meriam\\MvcTodoApp_SV\\MvcTodoApp.csproj",
+      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ASUS\\Desktop\\Meriam\\MvcTodoApp_SV\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Nawzat\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -46,7 +44,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net9.0": {
@@ -70,7 +68,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

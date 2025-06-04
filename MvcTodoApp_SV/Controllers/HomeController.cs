@@ -48,6 +48,31 @@ namespace MvcTodoApp.Controllers
             if (task != null)
                 task.IsComplete = true;
             return RedirectToAction("Index");
+        }/// <summary>
+        /// تعديل المهمه
+        /// </summary>
+        
+        public IActionResult EditTask(int id)
+        {
+            var task = tasks.FirstOrDefault(t => t.Id == id);
+            if (task == null)
+                return NotFound();
+            return View(task);
+        }
+        /// <summary>
+        /// تحديث المهمه
+        /// </summary>
+        
+        [HttpPost]
+        public IActionResult UpdateTask(TaskItem updatedTask)
+        {
+            var task = tasks.FirstOrDefault(t => t.Id == updatedTask.Id);
+            if (task != null)
+            {
+                task.Title = updatedTask.Title;
+                task.IsComplete = updatedTask.IsComplete; 
+            }
+            return RedirectToAction("Index");
         }
     }
 }
